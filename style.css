@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 15px auto;
+    max-width: 900px;
+    background: #e8ffe6;
+    font-family: 'Comfortaa', sans-serif;
+    line-height: 25px;
+}
+
+img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    margin: 10px 0 10px 30px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p {
+    margin: 0 0 10px 30px;
+}
+
+.links {
+    background-color: #ffc93359;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first {
+    padding-left: 15px;
+}
+
+.links a:hover {
+    color: #fd890496;
+}
+
+.links a:active {
+    opacity: .3;
+
+}
+
+.links a:visited {
+    color: rgb(116, 116, 116);
+}
+
+.list {
+    background-color: #f9c48396;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list ul {
+    padding: 0 15px;
+}
+
+.table-work {
+    background-color: #f78c6885;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.table-work table {
+    padding: 0 10px;
+}
+
+.table-work tr:hover {
+    background-color: #ff004021;
+}
+
+.table-work td {
+    padding: 0 5px;
+}
+
+.form {
+    background-color: #f9616e85;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-group {
+    margin-left: 20px;
+}
+
+/* .form-group label {
+    display: block;
+} */
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #b94953c4;
+    color: #b94953c4;
+    font-size: 15px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form button {
+    background: #b94953c4;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    /* margin-left: 15px; */
+}
+
+.form button:hover {
+    opacity: 0.7;
+}
