@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="резюме, верстка">
+    <meta name="description" content="Резюме начинающего программиста.">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @media (max-width: 920px) {
+
+            body {
+                margin: 10px;
+            }
+        }
+
+        @media (max-width: 680px) {
+
+            .info img {
+                width: 200px;
+            }
+
+            .name {
+                margin: 5px 5px;
+                font-size: 18px;
+                line-height: 17px;
+            }
+
+            .info p {
+                margin: 5px 0 0 5px;
+                font-size: 15px;
+                line-height: 17px;
+            }
+        }
+    </style>
+
+    <!-- <style>
+        @media (max-width: 500px) {
+
+            body {
+                font-size: 13px;
+                line-height: 15px;
+                margin: 5px;
+            }
+
+            .info img {
+                width: 150px;
+            }
+
+            .name,
+            .info p {
+                margin-left: 10px;
+            }
+
+            .links,
+            .list,
+            .table-work,
+            .form {
+                padding: 5px 5px;
+                margin: 5px 0;
+            }
+
+            .links h4 {
+                padding-bottom: 5px;
+            }
+
+            .first {
+                padding: 0;
+            }
+
+            .list ul {
+                padding: 5px 0 0 0;
+            }
+
+            .table-work table {
+                padding: 5px 0 0 0;
+            }
+
+            .table-work td {
+                padding: 0;
+            }
+
+            .form-group {
+                margin: 5px 0;
+            }
+
+        }
+    </style> -->
+
+</head>
+
+<body>
+
+    <div class="info">
+
+        <img src="my_photo.jpg" alt="Здесь был мой аватар">
+
+        <div>
+            <h2 class="name">Ириша Борушкова</h2>
+            <p>Я прохожу обучение, чтобы в дальнейшем стать разработчиком. В каком именно направлении буду
+                развиваться усерднее - покажет время. А пока что изучаю основы <em>HTML, CSS, JS</em>. </p>
+
+            <p><strong>Немного о себе:</strong> умею наслаждаться жизнью, мечтаю окунуться в культуру многих стран.
+                Обладаю
+                непреодолимой
+                манией ко всяким коробочкам, баночкам и просто красивым вещам.</p>
+        </div>
+    </div>
+
+    <div class="links">
+        <h4>Список социальных сетей</h4>
+        <a class="first" href="https://vk.com/boryaxd" target="_blank">VKontakte</a>
+        |
+        <a href="https://www.instagram.com/borya_xd/" target="_blank">Instagram</a>
+        |
+        <a href="@Any_Ri_Chan" target="_blank">Telegram</a>
+    </div>
+
+    <div class="list">
+        <h4>Мои увлечения</h4>
+        <ul>
+            <li>Hand Made</li>
+            <li>Nail Art</li>
+            <li>Долгий сон</li>
+            <li>Рисование</li>
+            <li>Йогатерапия</li>
+        </ul>
+    </div>
+
+    <div class="table-work">
+        <h4>Трудовая история</h4>
+        <table>
+            <tr>
+                <td>Народный ресторан "Бацькi"</td>
+                <td>Официантка</td>
+                <td>с 2012 до 2013г.</td>
+            </tr>
+            <tr>
+                <td>ССМП-1 "Трест Белтрансстрой"</td>
+                <td>Маляр</td>
+                <td>с 2015 до 2017г.</td>
+            </tr>
+            <tr>
+                <td>Пиццерия "Мастер Марио"</td>
+                <td>Зам. Директора</td>
+                <td>с 2018 до 2020г.</td>
+            </tr>
+            <tr>
+                <td>ЦСОН Центрального района</td>
+                <td>Няня</td>
+                <td>с 2021 по сей день</td>
+            </tr>
+        </table>
+    </div>
+
+    <form action="/" class="form">
+        <h4>Связаться со мной</h4>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Введите Имя...">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Введите почту...">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Введите сообщение..." cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Отправить!</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
